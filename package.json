@@ -1,0 +1,29 @@
+{
+  "name": "systemflow-s2-resume-dedup",
+  "version": "1.0.0",
+  "description": "Multi-anchor fingerprinting and Disjoint-Set Union (Union-Find) to detect duplicate job applicants and guarantee fair shortlist quotas.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "union-find",
+    "disjoint-set",
+    "identity-resolution",
+    "hashing",
+    "pipeline",
+    "ats",
+    "deduplication"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.1"
+  }
+}
